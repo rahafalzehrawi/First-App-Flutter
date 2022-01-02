@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
-void main() => runApp(const MyApp());
+void main() => runApp(const Second());
 
-class MyApp extends StatelessWidget {
+class Second extends StatelessWidget {
   static Route<dynamic> route() {
     return CupertinoPageRoute(
       builder: (BuildContext context) {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       },
     );
   }
-  const MyApp({Key? key}) : super(key: key);
+  const Second({Key? key}) : super(key: key);
 
   static const String _title = 'Flutter Code Sample';
 
